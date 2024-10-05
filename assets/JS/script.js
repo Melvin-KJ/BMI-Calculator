@@ -17,6 +17,7 @@ form.addEventListener('submit', function (event) {
 
   document.getElementById('infos').classList.remove('hidden'); //show info section
 
+  //bmi classification based on bmi value
   if (bmi < 18.5) {
     description = 'Underweight';
     value.classList.remove('attention');
